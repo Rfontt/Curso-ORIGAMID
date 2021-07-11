@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+.Container-Global {
+    width: 100vw;
+    height: 100vh;
+    background-color: #F3F3F3;
+}
+
+.Slick-Container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.Carousel-Slick {
+    width: 183px;
+    height: 255;
+    background-color: #000;
+    border-radius: 8px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.Slicks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Button-Accountat {
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    border: none;
+    margin: 20px;
+}
+
+.active {
+    background-color: #325095;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: none;
+    margin: 20px;
+}
+
+.hidden {
+    display: none;
+  }
